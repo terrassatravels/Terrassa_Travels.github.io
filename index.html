@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="de"><head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Terrassa Travels</title>
+  <link rel="stylesheet" href="stylws.css">
+</head>
+<body>
+
+  <header class="main-header">
+    <h1>Terrassa Travels Reiseveranstalter</h1>
+    <a href="index10.html"> <b>Rasul Rustamov
+Unternehmensführer.</b></a>
+<p><b>Lizensierte Reiseführer für Usbekistan auf Deutsch mit deutscher Abschluss.</b></p>
+    <p>Terrassa Travelsist ein Teil der Terrassa Unternehmenskette von Familie Rustamov.</p>
+    <p>Terrassa Team steht für euch immer gerne zur Verfügung.</p>
+  </header>
+
+  <section class="hero-image">
+    <img src="img/rasul.JPG" alt="Terrasse Dinner Usbekistan">
+  </section>
+
+  <section class="tour-cards">
+    <div class="card">
+      <img src="img/faxa1.jpg" alt="Usbekistanreise 14 Tage">
+      <a href="index2.html">Mehr Information</a>
+      <p>Usbekistanreise für 14 Tage</p>
+    </div>
+    <div class="card">
+      <img src="img/faxa2.jpg" alt="Zentralasien Kombitour">
+      <a href="index3.html">Mehr Information</a>
+      <p>Kombitouren</p>
+    </div>
+    <div class="card">
+      <img src="img/faxa3.jpg" alt="8–10 Tage Tour">
+      <a href="index4..html">Mehr Information</a>
+      <p>Usbekistanreise 8–10 Tage</p>
+    </div>
+    <div class="card">
+      <img src="img/faxa4.jpg" alt="Individuelle Reisen">
+      <a href="index10.html">Mehr Information</a>
+      <p>Individuelle Touren</p>
+    </div>
+  </section>
+  <section class="contact_section ">
+    <div class="container">
+      <div class="heading_container">
+        <h2>
+          Get In Touch
+        </h2>
+      </div>
+    </div>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-6 px-0">
+          <div class="map_container">
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-5 ">
+          
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <section class="info_section ">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3">
+          <div class="info_contact">
+            <h5>
+              About Apartment
+            </h5>
+            <div>
+              <div class="img-box">
+                <img src="images/location.png" width="18px" alt="">
+              </div>
+              <p>
+                Address
+              </p>
+              <p>Boyoqchilar,5 Ichan Kala Khiva 220900 Khorezm Uzbekistan</p>
+            </div>
+            <div>
+              <div class="img-box">
+                <img src="images/phone.png" width="12px" alt="">
+              </div>
+              <p>+998 90 558 91 11</p>
+            </div>
+            <div>
+              <div class="img-box">
+                <img src="images/mail.png" width="18px" alt="">
+              </div>
+              <p>rasulbekrustamov20@gmail.com</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          
+        </div>
+
+        
+        
+      </div>
+    </div>
+  </section>
+
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</body></html>
